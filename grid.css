@@ -1,0 +1,18 @@
+/* v ==== GRID ==== v */
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+}
+
+.grid-12 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 100px);
+}
+/* ^ ==== END GRID ==== ^ */
+
+.hotbar{
+    align-content: center;
+    color: black;
+}
